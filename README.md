@@ -45,11 +45,16 @@ En la aplicación se pueden ver distintas recetas de comida junto con informaci�
 - Buscar recetas
 - Filtrarlas / Ordenarlos
 - Crear nuevas recetas propias
+- 
+### A continuación, algunas imágenes de los endpoints del proyecto
 
+#### `/recipes`
 ![home](https://user-images.githubusercontent.com/94709834/182886066-4bcbed0f-33a7-446e-93e0-31731405c32a.png)
 
+#### `/recipes/${id}` //cualquier número entre 1 y 100
 ![detail1](https://user-images.githubusercontent.com/94709834/182885899-1147af0c-08a0-46f1-a4fc-9604ab9e9eba.png)
 
-![pi imagen para job prep](https://user-images.githubusercontent.com/94709834/182885669-ee9c351c-c613-4817-b33f-90261d136510.png)!
+#### `/create`
+![pi imagen para job prep](https://user-images.githubusercontent.com/94709834/182885669-ee9c351c-c613-4817-b33f-90261d136510.png)
 
 
