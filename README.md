@@ -15,7 +15,7 @@
 
 Siéntanse libres de seguir estos pasos para probar en sus equipos el trabajo que realicé:
  1. Forkear el repositorio para tener una copia del mismo en sus cuentas
- 2. Clonar el repositorio en sus computadoras para comenzar a trabajar
+ 2. Clonar el repositorio en sus computadoras para ejecutarlo y probarlo
 
 Tecnologías usadas:
 
