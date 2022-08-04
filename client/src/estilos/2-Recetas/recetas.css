@@ -1,0 +1,126 @@
+
+.resumen{
+    width: 40%;
+    border: 8px double orange;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(028, 028, 028, 95%);
+  }
+  
+  
+  .plato{
+    height: 242px;
+    width: 327px;
+  }
+  
+  .imagedetail{
+    height: 254px;
+    width: 343px;
+    border-radius: 2rem;
+  }
+  
+  .recetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    font-weight: bolder;
+    font-size: larger;
+  
+  }
+  .eachrecipe{
+    padding: 10px !important;
+    border-radius: 1rem;
+    margin: 10px;
+    width: 22rem;
+    height: 45rem;
+    background-color: rgb(150, 200, 10, 0.5) ;
+    font-weight: bolder;
+  }
+  
+  .loading{
+    /* background-image: url("https://i.gifer.com/g0R5.gif");  */
+    background-image: url("https://i.pinimg.com/originals/78/e8/26/78e826ca1b9351214dfdd5e47f7e2024.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 20;
+    background-size: 50%;
+  }
+  
+  .allrecipes, .generalform{
+    background-image: url("https://previews.123rf.com/images/rawpixel/rawpixel1706/rawpixel170601468/79659366-elegante-servicio-de-mesa-de-restaurante-para-la-recepci%C3%B3n-con-tarjeta-reservada.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;    
+    background-color:  rgb(209, 188, 160);
+
+  }
+
+  .generalform{
+    height: 2765px;
+  }
+
+  #id{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/739/437/non_2x/wooden-table-top-with-rustic-interior-background-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+
+  }
+
+  .detalle{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: max-content;
+    background-color: rgb(rgb(163, 122, 46));
+    
+  }
+
+  .fuente{
+    background-color: rgb(50, 50, 50, 0.9);
+    font-size: medium;
+    font-weight: bold;
+    padding: 4px 59px;
+    width: max-content;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+
+  #azure{
+    
+    color:azure;
+  }
+  
+  #rojo{
+    color: red;
+    /* background-color: rgb(250, 250, 250, 0.7);
+    border-radius: 7px; */
+  }
+  #naranja{
+    color: orangered;
+    /* background-color: rgb(250, 250, 250, 0.7);
+    border-radius: 7px;*/
+  } 
+  #amarillo{
+    color: yellow;
+    /* background-color: rgb(250, 250, 250, 0.7);
+    border-radius: 7px; */
+  }
+  #verde{
+    color: green;
+    /* background-color: rgb(250, 250, 250, 0.7);
+    border-radius: 7px; */
+  }
+
+  .punta{
+    display: flex;
+    margin: auto 0px 0px auto;
+  }

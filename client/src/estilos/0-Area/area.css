@@ -1,0 +1,32 @@
+
+.area{
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gray;
+  }
+  .botonesArea{
+    width: 19%;
+    align-items: center;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+  }
+
+  .buttonRecipe{
+    border-radius: 10px;
+    height: 5rem; 
+    background-color:rgb(255, 99, 71, 0.6);
+    font-weight: bolder;
+    font-size: medium;
+    width: 100%;
+  }
+
+  .buttonRecipe:hover{
+    height: 5.5rem;
+  }
+
+
+.filtro, .orden{
+  background-color: orangered;
+}

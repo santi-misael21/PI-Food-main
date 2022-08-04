@@ -1,0 +1,49 @@
+.inicial{
+    /* background-image: url("https://images6.alphacoders.com/334/334640.jpg"); */
+    background-image: url("https://okdiario.com/img/vida-sana/2015/12/piramide22.jpg");
+    background-attachment: fixed;
+    margin-top: -1%;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+#title{
+    font-size: 10vh;
+    margin: 1vh;
+    font-weight: bolder;
+    color:black;
+    background-color: rgb(200, 200, 200, 0.5);
+    border-radius: 15px;
+    margin-top: 5px;
+}
+#subtitle{
+    font-size: 5vh;
+    margin: 1vh;
+    font-weight: bolder;
+    color:black;
+    background-color: rgb(200, 200, 200, 0.5);
+    border-radius: 15px;
+    margin-top: 5px;
+}
+#go{
+    margin: 2.5vh;
+    width: 15vw;
+    height: 8vh;
+    font-size: 3.5vh;
+    min-width: max-content;
+    background-color: rgb(255, 69, 0, 0.5);
+    border-radius: 6px;
+
+}
+.inicialcontenido{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 101vh;
+}
+
+/* .loadingrecipes{
+    background-image: url("https://i.pinimg.com/originals/78/e8/26/78e826ca1b9351214dfdd5e47f7e2024.gif");
+} */

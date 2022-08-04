@@ -1,0 +1,22 @@
+.botondietasform{
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .divdietasform{
+    border: 1px solid whitesmoke;
+  }
+  
+  .diets{
+    background-image: url("https://okdiario.com/img/vida-sana/2015/12/piramide22.jpg");
+    background-attachment: fixed;
+    height: 750px;
+    background-size: cover;
+    
+  }
+  
+  .eachdiet{
+    font-weight: bolder;
+    margin: 0.8rem;
+  }
