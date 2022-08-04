@@ -25,7 +25,7 @@ Tecnologías usadas:
 - __redux__: 4.0.5
 - __react-redux__: 7.2.3
 
-Estando en Visual Studio con el proyecto abierto, será suficiente con colocar los comandos npm install, tanto en la carpeta client, como en la carpeta api. Luego aguardar a que se instalen las tecnologías necesarias, y a continuación ejecutar npm start en las dos carpetas mencionadas. El puerto por defecto para correr el frontend es el 3000, ingresando desde el browser a http://localhost:3000. El puerto por defecto para correr el backend es el 3001, se puede ingresar desde el browser a http://localhost:3001. Los endpoints disponibles para visualizar el funcionamiento del backend son `3001/recipes`; 3001/recipes/${id}`, ingresando cualquier id entre 1 y 100; y `3001/diets`.
+Estando en Visual Studio con el proyecto abierto, será suficiente con colocar los comandos npm install, tanto en la carpeta client, como en la carpeta api. Luego aguardar a que se instalen las tecnologías necesarias, y a continuación ejecutar npm start en las dos carpetas mencionadas. El puerto por defecto para correr el frontend es el 3000, ingresando desde el browser a http://localhost:3000. El puerto por defecto para correr el backend es el 3001, se puede ingresar desde el browser a http://localhost:3001. Los endpoints disponibles para visualizar el funcionamiento del backend son `3001/recipes`; `3001/recipes/${id}`, ingresando cualquier id entre 1 y 100; y `3001/diets`.
 
 Variables de entorno del backend.
 Copiar y pegar en un archivo .env creado en la carpeta api las siguientes variables:
@@ -45,5 +45,3 @@ En la aplicación se pueden ver distintas recetas de comida junto con informaci�
 - Buscar recetas
 - Filtrarlas / Ordenarlos
 - Crear nuevas recetas propias
-
-__IMPORTANTE__: Para poder utilizar esta API externa es necesario agregar una apiKey en el archivo `.env` 
