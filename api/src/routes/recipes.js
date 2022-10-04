@@ -65,7 +65,7 @@ router.get("/:id", async (req, res)=>{
     let {id} = req.params
 
     try {
-        let detalle= await axios.get(`http://localhost:3001/recipes`)
+        let detalle= await axios.get(`https://santiagoalamos-foodpi.herokuapp.com/recipes`)
         let answer= detalle.data[id -1]
     
         return res.status(200).json(answer)
