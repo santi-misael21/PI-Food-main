@@ -4,6 +4,7 @@ import { Back } from "./--1-BajoSubsuelo";
 import '../estilos/4-Form/form.css';
 import Form from "./7-Form";
 import axios from "axios";
+import { API_URL } from "../config/enviroment";
 
 export default function Ventana({long}) {
 
@@ -17,7 +18,7 @@ export default function Ventana({long}) {
         
     // }
     function mostrar () {
-        axios.get(`http://localhost:3001/recipes`
+        axios.get(`${API_URL}/recipes`
         ).then(()=>hist.push("/recipes")
         ).then(()=>hist.push("/create")
         ).catch(e=>console.log(e))

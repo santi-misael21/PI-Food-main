@@ -1,4 +1,5 @@
 import axios from 'axios'; 
+import { API_URL } from '../../config/enviroment';
 
 export const GET_RECIPES= "GET_RECIPES";
 export const ORDERED= "ORDERED";
@@ -50,7 +51,7 @@ export const binaria= (bool)=> {
 
 export const getfuels = ()=> {
     return async function(dispatch){
-        axios.get(`http://localhost:3001/recipes/table`
+        axios.get(`${API_URL}/recipes/table`
         ).then(r=> r
         ).then(r=> dispatch({type: GET_FUELS, payload: r})
         ).catch(e=> console.log(e))
@@ -59,7 +60,7 @@ export const getfuels = ()=> {
 
 export const getRecipes= ()=> {
     return async function (dispatch){
-        axios.get("http://localhost:3001/recipes"
+        axios.get(`${API_URL}/recipes`
         ).then(r => r.data
         // ).then(r=> console.log(r)
         ).then(r=> dispatch({type: GET_RECIPES, payload: r})
@@ -70,7 +71,7 @@ export const getRecipes= ()=> {
 export const detail= (id)=> {
     return async function (dispatch){
         await axios.get(
-            `http://localhost:3001/recipes/${id}`
+            `${API_URL}/recipes/${id}`
         ).then(r=> r.data
         ).then(r=> dispatch({ type: DETAIL, payload: r}) 
         ).catch(e=>console.log(e))
@@ -86,7 +87,7 @@ export const paging= (valores)=> {
 
 export const getDiets= ()=>{
     return async function (dispatch){
-        axios.get("http://localhost:3001/diets"
+        axios.get(`${API_URL}/diets`
         ).then(r => r.data
         ).then(r=> dispatch({type: GET_DIETS, payload: r})
         ).catch(e=>console.log(e))

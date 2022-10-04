@@ -1,6 +1,7 @@
 // import axios from "axios";
 import React, { useState } from "react";
 import { useDispatch, useSelector } from 'react-redux';
+import { API_URL } from "../config/enviroment";
 import { getfuels } from "../redux/actions";
 import { Back } from "./--1-BajoSubsuelo";
 // import exportTableToExcel from "./19-ModuloHTML";
@@ -47,7 +48,7 @@ export default function Tabla(){
     //     }
     // }
     function submit(){
-        axios.post("http://localhost:3001/recipes/table",{
+        axios.post(`${API_URL}/recipes/table`,{
             tabla
         }).then(r=>console.log(r))
     }

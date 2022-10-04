@@ -14,6 +14,7 @@ import { Back } from './--1-BajoSubsuelo';
 import { useEffect } from 'react';
 import { longitud } from './-1-AreaSearching';
 import Ventana from './10-Aftercreate';
+import { API_URL } from '../config/enviroment';
 const axios = require('axios').default;
 
 export function validate(input) {
@@ -152,7 +153,7 @@ export default function  Form() {
         // dispatch(create(objetoNuevo))//COMENTADA PARA EXPERIMENTO REDUX --->
         dispatch(createdisplay(objetoNuevo)) //ESTO ES
         
-        axios.post("http://localhost:3001/recipes",{//COMENTADA PARA EXPERIMENTO REDUX <---
+        axios.post(`${API_URL}/recipes`,{//COMENTADA PARA EXPERIMENTO REDUX <---
             ...input, Pasos
         }).then(()=>setVentana("ventana"))
 
