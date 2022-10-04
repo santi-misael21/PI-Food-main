@@ -13,7 +13,7 @@ const {
   DB_USER, DB_PASSWORD, DB_HOST
 } = process.env;
 
-let DB = DB_USER === 'postgres' ? 'spoondiets' : ''
+let DB = DB_USER === 'postgres' ? 'spoondiets' : DB_USER
 
 // console.log(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/spoondiets`);
 
