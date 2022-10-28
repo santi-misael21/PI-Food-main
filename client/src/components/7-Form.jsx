@@ -171,10 +171,10 @@ export default function  Form() {
                 {/*method y action en proceso, aunque no sé si deben ir */}
                 <div>
                     <label>Nombre de la receta:</label>
-                    <input className={ errors.nombre && 'danger' }
-                    type="text"
-                    name="Nombre"
-                    value= {input.Nombre}
+                    <input className={ errors.nombre && 'danger' }   // Fijar errores 
+                    type='number'                                     // Tipo texto 
+                    name="Nombre"                       //clave
+                    value= {input.Nombre}               //clave
                     onChange={(e) =>{ handleInputChange(e)} }/>
                     {errors.nombre && (<span className="danger"> {errors.nombre} </span> )}
                     <br>
